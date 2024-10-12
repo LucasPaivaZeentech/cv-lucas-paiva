@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+    background-color: whitesmoke;
+    
+    
+}
+header{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.bg-header{
+    background: linear-gradient(rgb(1, 0, 32), rgba(0, 0, 0, 0.658)), url('/assets/bg-fundo-header.jpg');
+    background-size: cover;
+    background-position: center;
+}
